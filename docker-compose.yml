@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  app:
+    image: docker.io/raspberry_coffee:1.0.0
+    container_name: raspberry_coffee
+    volumes:
+      - ./synced:/synced
